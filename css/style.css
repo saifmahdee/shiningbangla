@@ -1,0 +1,469 @@
+* {
+	box-size: border-box;
+}
+
+body {
+  font-family: georgia,"times new roman",times,serif, SolaimanLipi;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0; }
+
+.nav-top {
+  border-top: 3px solid blue;
+  border-bottom: 2px double red;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .nav-top p {
+    font-size: 16px; }
+  .nav-top a {
+    text-decoration: none;
+    color: white; }
+  .nav-top .facebook {
+    background-color: blue; }
+    .nav-top .facebook:hover {
+      background-color: white; }
+      .nav-top .facebook:hover .fa-facebook {
+        color: blue; }
+    .nav-top .facebook .fa-facebook {
+      color: white; }
+  .nav-top .twitter {
+    background-color: skyblue; }
+    .nav-top .twitter:hover {
+      background-color: white; }
+      .nav-top .twitter:hover a {
+        color: skyblue; }
+  .nav-top .google-plus {
+    background-color: red; }
+    .nav-top .google-plus:hover {
+      background-color: white; }
+      .nav-top .google-plus:hover a {
+        color: red; }
+
+.ticker #ticker-head p {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  margin-right: -28px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  border-left: 4px solid green;
+  border-right: 2px solid green;
+  padding-bottom: 5px; }
+.ticker #ticker-content p {
+  padding-top: 5px; }
+
+/*Ticker CSS*/
+
+marquee > ul {
+}
+
+marquee > ul > li {
+  float: left;
+  padding-right: 25px;
+}
+
+marquee > ul > li > a {
+  font-size: 16px;
+  text-decoration: none;
+  color: red;
+}
+
+
+
+
+
+
+.navbar-collapse {
+  background-color: green;
+  box-shadow: 0 5px 5px #888888;
+}
+  .navbar-collapse .uper-menu ul {
+    margin-left: -15px;
+  }
+  .navbar-collapse .uper-menu li {
+    border-right: 1px solid white; }
+    .navbar-collapse .uper-menu li a {
+      color: white;
+      font-size: 18px; }
+    .navbar-collapse .uper-menu li:hover a {
+
+      background-color: white;
+      color: red;
+    }
+
+
+ #content {
+ 
+    padding-bottom: 20px;
+    background-color: white; 
+    padding-top: 15px;
+
+  }
+
+  #content-area{
+
+  }
+
+
+
+    #content #main {
+      padding-right: 10px;
+      padding-left: 20px;
+      
+
+       }
+
+    #content #aside {
+      padding-left: 20px;
+      padding-right: 10px;
+       }
+
+.menu-br {
+  padding-top: 50px;
+  border-bottom: 1px solid red; }
+
+  #content #content-area a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+.single-post p {
+  line-height: 150%;
+  font-size: 20px; 
+}
+
+#main > div.line > p {
+  
+  font-size: 18px;
+  color: #fff;
+  background-color: red;
+  display: inline;
+  padding: 5px; }
+
+#main > div.line {
+  border-bottom: 1px solid red;
+  padding-bottom: 2px;
+}
+
+#main > div.row > div.col-md-4 > div.line > p {
+   font-size: 18px;
+  color: #fff;
+  background-color: red;
+  display: inline;
+  padding: 5px;
+}
+
+#main > div.row > div.col-md-4 > div.line {
+  border-bottom: 1px solid red;
+  padding-bottom: 2px;
+}
+
+#main > div.row > div.col-md-6 > div.line > p {
+   font-size: 18px;
+  color: #fff;
+  background-color: red;
+  display: inline;
+  padding: 5px;
+}
+
+#main > div.row > div.col-md-6 > div.line {
+  border-bottom: 1px solid red;
+  padding-bottom: 2px;
+}
+
+
+/*Feature up*/
+
+#feature-up {
+  /*background-color: #ddd;*/
+  
+}
+
+#feature-up > div.container > #feature-content {
+  padding-top: 15px;
+  margin-top: -20px;
+  /*background-image: url(http://localhost/mahdee/wp-content/uploads/2017/04/background.png);*/
+  background-color: white;
+  box-shadow: 0 5px 5px #888888;
+}
+
+/*Content*/
+
+
+
+
+.br {
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+
+
+/*Shirsa Sangbad*/
+
+#main > div.row > div.col-md-6 > div.shirsa {
+  padding-top: 15px;
+}
+
+#main > div.row > div.col-md-6 > div.shirsa > div.shirsa1 {
+  padding-bottom: 5px;
+}
+
+#main > div.row > div.col-md-6 > div.shirsa_title > div.shirsa_content > p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#main > div.row > div.col-md-6 > div.shirsa_title > div.shirsa_content > p > a {
+  padding-left: 5px;
+  color: red;
+}
+
+#main > div.row > div.col-md-6 > div.shirsa_title > div.shirsa_content > p > a:hover {
+  color: blue;
+}
+
+/*archive post break*/
+
+#post_dash {
+  padding: 10px;
+  box-shadow: 0 5px 5px #888888;
+}
+
+
+/*Bangladesh/Orthoniti/Rajniti*/
+
+#main > div.row > div.col-md-4 > div.row > div.col-md-12 > div.one {
+  padding-top: 15px;
+}
+
+/*chobighar*/
+
+.mySlides {display:none;}
+
+
+/*Binodon*/
+
+#main > div.row > div.col-md-6 > div.row > div.col-md-12 > div.one {
+  padding-top: 15px;
+}
+
+
+/*BREADCRUMBS*/
+
+.single-post {
+  padding-top: 20px;
+}
+
+#main > div.row > div.col-md-12 > div.page_header > ul {
+  list-style: none;
+  margin-left: -35px; 
+
+}
+
+#main > div.row > div.col-md-12 > div.page_header > ul > li {
+  float: left;
+}
+
+#main > div.row > div.col-md-12 > div.page_header > ul > li:last-child {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+#main > div.row > div.col-md-12 > div.page_header > ul > li > ul {
+  list-style: none;
+  margin-left: -35px; 
+  
+}
+
+#main > div.row > div.col-md-12 > div.page_header > ul > li > ul > li {
+  float: left;
+  padding: 0 5px;
+}
+
+/*Single Post*/
+
+.single-post .post p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*Related Post*/
+
+.relatedposts {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+
+.relatedposts h3 {
+  border-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.relatedposts .relatedthumb {
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.relatedposts .relatedthumb .postrelated {
+  width:75%;
+ }
+  
+
+/*sidebar*/
+
+
+#aside > div.line > p {
+  
+  font-size: 18px;
+  color: #fff;
+  background-color: red;
+  display: inline;
+  padding: 5px; }
+
+#aside > div.line {
+  border-bottom: 1px solid red;
+  padding-bottom: 2px;
+}
+  
+
+footer {
+  /*background-color: #3e3e5b;*/
+  background-image: url(http://localhost/mahdee/wp-content/uploads/2017/04/background.png);
+  padding-top: 20px; }
+
+  footer .logo-social {
+    padding-bottom: 10px;
+    padding-top: 10px; }
+footer > div.container > div.logo-social > div.row > div.col-md-6 > p {
+
+  color: blue;
+  font-size: 18px;
+
+}
+
+  footer .printing-line {
+    color: black;
+    padding-top: 10px; }
+    footer .printing-line p:nth-child(4) {
+      font-size: 30px; }
+    footer .printing-line p:nth-child(1), footer .printing-line p:nth-child(2), footer .printing-line p:nth-child(3), footer .printing-line p:nth-child(5) {
+      font-size: 14px; }
+
+
+
+/*Scroll back to top*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+.info {
+  border-left:5px solid red;
+  color: black;
+  font-size: 12px;
+  display: inline;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.ad-content-up {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+#aside #content ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#aside #content li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 19px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+
+ /*Ad sections */
+
+
+
+
+
+/* calendar widget */
+.widget_calendar {float: left;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: center; color: #333; font-size: 20px; margin-bottom: 5px; }
+#wp-calendar thead { background-color: skyblue; font-size: 20px; color: blue; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: red; }
+#wp-calendar tbody td { background: #ddd; border: 1px solid #fff; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 20px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 20px; text-transform: uppercase; padding-top: 10px; }
